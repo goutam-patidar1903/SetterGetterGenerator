@@ -1,0 +1,13 @@
+To compile :- 
+src > javac -d ..\classes com\thinking\machines\util\*.java
+
+To create jar file :-
+classes > jar -cvf ..\dist\tmcommon.jar com
+
+Testcases : 
+
+To compile :- 
+javac Student.java
+
+To Run :- 
+java -classpath ..\dist\tmcommon.jar;. com.thinking.machines.util.SetterGetterGenerator Student 
