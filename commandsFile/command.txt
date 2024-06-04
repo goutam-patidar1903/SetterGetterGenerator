@@ -7,7 +7,7 @@ classes > jar -cvf ..\dist\tmcommon.jar com
 Testcases : 
 
 To compile :- 
-javac Student.java
+testcases > javac Student.java
 
 To Run :- 
-java -classpath ..\dist\tmcommon.jar;. com.thinking.machines.util.SetterGetterGenerator Student 
+testcases > java -classpath ..\dist\tmcommon.jar;. com.thinking.machines.util.SetterGetterGenerator Student 
